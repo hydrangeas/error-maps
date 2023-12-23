@@ -10,8 +10,7 @@ export default function Nav() {
     <nav className="flex sm:justify-center space-x-4">
       {[
         ["Home", "/"],
-        ["Error Lists", "/errors"],
-        ["Error Diag", "/diag"],
+        ["Lists", "/errors"],
         ["Reports", "/reports"],
       ].map(([title, url]) => (
         <Link
