@@ -24,6 +24,9 @@ const config: Config = {
       borderRadius: {
         "4xl": "2rem",
       },
+      textUnderlineOffset: {
+        8: "12px",
+      },
     },
   },
   plugins: [],
