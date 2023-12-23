@@ -11,7 +11,7 @@ export default function Nav() {
       {[
         ["Home", "/"],
         ["Error Lists", "/errors"],
-        ["Projects", "/projects"],
+        ["Error Diag", "/diag"],
         ["Reports", "/reports"],
       ].map(([title, url]) => (
         <Link
